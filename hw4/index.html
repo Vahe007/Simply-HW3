@@ -15,135 +15,195 @@
   </head>
   <body>
     <div class="header">
-      <div class="header-top">
-        <div class="header-lhs">
-          <h1 class="title">Licenses</h1>
-        </div>
-
-        <div class="header-rhs">
-          <div class="image">
-            <div id="chevron"></div>
-            <div id="chevron2"></div>
+      <div class="top">
+        <h1>Licenses</h1>
+        <div class="header-buttons">
+          <div class="licenses-btn free free-selected">
+            <img src="./images/free.png" />
+            <div class="black">
+              <div class="rectangle-text">FREE</div>
+            </div>
           </div>
-          <div class="image">
-            <div id="chevron"></div>
-            <div id="chevron2"></div>
+          <div class="licenses-btn pro">
+            <img src="./images/pro.png" />
+            <div class="black">
+              <div class="rectangle-text">PRO</div>
+            </div>
           </div>
-          <div class="image">
-            <div id="chevron"></div>
-            <div id="chevron2"></div>
+          <div class="licenses-btn vip">
+            <img src="./images/vip.png" />
+            <div class="black">
+              <div class="rectangle-text">VIP</div>
+            </div>
           </div>
-
-          <div class="upgrade-button btn">
-            <small class="upgrade-button-text btn-title"> Upgrade Now </small>
-          </div>
+          <div class="upgrade">Upgrade Now</div>
         </div>
       </div>
 
-      <div class="header-menu">
-        <div class="page page1">Subscription</div>
-        <div class="page page2">Outright</div>
-        <div class="page page3">Offline Activation</div>
-      </div>
-
-      <div class="bottom-line-div">
-        <hr class="bottom-line" />
-        <!-- <hr class="highlighted-line" /> -->
+      <div class="menu">
+        <div class="menu-buttons">
+          <div class="title subscription">Subscription</div>
+          <div class="title outright">Outright</div>
+          <div class="offline_container">
+            <div class="title offline">Offline Activation</div>
+            <hr class="blue-hr" />
+          </div>
+        </div>
+        <hr class="general-hr" />
       </div>
     </div>
 
     <div class="main">
-      <div class="system-title bold-title">Systems</div>
-
-      <div class="division1">
-        <div class="division1-title">
-          <h4 class="div-title title1">System Name</h4>
-          <h4 class="div-title title2">ID</h4>
-          <h4 class="div-title title3">Created date</h4>
-          <h4 class="div-title title4">Active Licenses</h4>
+      <h2 class="title system-title">Systems</h2>
+      <div class="sys-container1 sys-main">
+        <div class="sys-header">
+          <div class="sys-name sys-header-text">
+            <text>System Name</text>
+          </div>
+          <div class="sys-id sys-header-text">
+            <text>ID</text>
+          </div>
+          <div class="sys-date sys-header-text">
+            <text>Created date</text>
+          </div>
+          <div class="sys-licenses sys-header-text">
+            <text>Active Licenses</text>
+          </div>
         </div>
 
-        <div class="content-container">
-          <div class="content">
+        <div class="sys-main-container">
+          <div class="sys-main-content">
             <div class="triangle"></div>
-            <div class="bold-content">James-Main-Mackbook</div>
-            <div class="bold-content">91520</div>
-            <div class="bold-content">01 Jan 2019</div>
-
-            <div class="bold-content b4">2</div>
-            <div class="license-btn btn">
-              <div class="btn-title">Add License</div>
+            <div class="data data-name">
+              <text>James-Main-Mackbook</text>
             </div>
-            <div class="remove-btn btn">
-              <div class="btn-title">Remove</div>
+            <div class="data data-id">
+              <text>91520</text>
+            </div>
+            <div class="data data-date">
+              <text>01 Jan 2019</text>
+            </div>
+            <div class="data data-licenses">
+              <text>2</text>
+            </div>
+            <div class="add">
+              <text>Add License</text>
+            </div>
+            <div class="remove">
+              <text>Remove</text>
+            </div>
+          </div>
+
+          <div class="sub-system">
+            <div class="vertical-div">
+              <div class="vertical"></div>
+            </div>
+
+            <div class="horizontal-div">
+              <div class="horizontal1"></div>
+              <div class="horizontal2"></div>
+            </div>
+
+            <div class="columns">
+              <div class="subsystem-header">
+                <div class="licenses">
+                  <text>Licenses</text>
+                </div>
+                <div class="expires title">
+                  <text>Expires</text>
+                </div>
+              </div>
+
+
+              <div class="sub-div sub-container2">
+                <div class="sub-content">
+                  <div class="sub-licenses data">
+                    <text>Jenkins Pro</text>
+                  </div>
+                  <div class="sub-expires data">
+                    <text>Never</text>
+                  </div>
+                  <div class="download">
+                    <text>Download</text>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="sub-div sub-container1">
+                <div class="sub-content">
+                  <div class="sub-licenses data">
+                    <text>Outfit Pro</text>
+                  </div>
+                  <div class="sub-expires sub-expires2 data">
+                    <text>29 Jul 2021</text>
+                  </div>
+                  <div class="download download2">
+                    <text>Download</text>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
       </div>
 
-      <div class="division2">
-        <div class="division2-title">
-          <h4 class="div-title title1">Licenses</h4>
-          <h4 class="div-title title2">Expires</h4>
-        </div>
 
-        <div class="container2">
-          <div class="content2 content">
-            <div class="bold-content b1">Jenkins Pro</div>
-            <div class="bold-content b2">Never</div>
-            <div class="bold-content b2">Download</div>
+      <div class="sys-container2">
+        <div class="sys-header">
+          <div class="sys-name sys-header-text">
+            <text>Created date</text>
+          </div>
+          <div class="sys-id sys-header-text">
+            <text>Active Licenses</text>
           </div>
         </div>
-      </div>
 
-      <div class="division3">
-        <div class="container2">
-          <div class="content2 content">
-            <div class="bold-content b1">Outfit Pro</div>
-            <div class="bold-content b2">29 Jul 2021</div>
-            <div class="bold-content b2">Download</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="division3">
-        <div class="division3-title">
-          <h4 class="div-title title1">Licenses</h4>
-          <h4 class="div-title title2">Expires</h4>
-        </div>
-
-        <div class="container2 container3">
-          <div class="content">
+        <div class="sys-main-container">
+          <div class="sys-main-content">
             <div class="triangle"></div>
-            <div class="bold-content">James-Laptop</div>
-            <div class="bold-content">84729</div>
-            <div class="bold-content">15 Jan 2020</div>
-            <div class="bold-content b4">1</div>
-
-            <div class="license-btn btn">
-              <div class="btn-title">Add License</div>
+            <div class="data data-name">
+              <text>James-Laptop</text>
             </div>
-            <div class="remove-btn btn">
-              <div class="btn-title">Remove</div>
+            <div class="data data2-id">
+              <text>84729</text>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="bottom">
-        <div class="add-title bold-title">Add System</div>
-        <div class="add">
-          <div class="bottom-content">
-            <input type="file">
-            <div class="square">
-              <span>&#8595;</span>
+            <div class="data data2-date">
+              <text>15 Jan 2020</text>
             </div>
-            <div class="text">
-              Choose a file to upload or drag it here (jpg, png, max size 5mb)
+            <div class="data data2-licenses">
+              <text>1</text>
+            </div>
+            <div class="add">
+              <text>Add License</text>
+            </div>
+            <div class="remove">
+              <text>Remove</text>
             </div>
           </div>
-        </div>
       </div>
     </div>
+
+    <footer>
+      <div class="footer-content">
+        <text>Add System</text>
+
+        <div class="drag-drop-uploader">
+          <input class="uploader-input-field" type="file" multiple />
+          <div class="upload-icon">
+            <text class="arrow">↓</text>
+          </div>
+          <div class="upload-text">
+            <text
+              ><text class="upload-click" href>Choose a file </text>to upload or
+              drag it here
+            </text>
+            <text class="file-size">(jpg, png, max size 5mb)</text>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
